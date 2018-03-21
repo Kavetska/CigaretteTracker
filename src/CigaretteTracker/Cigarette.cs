@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CigaretteTracker
 {
-    public class Class1
+    public class Cigarette
     {
+        public double Nicotine { get; set; }
+        public int Resin { get; set; }//смол
+        public double Price { get; set; }
     }
 }
