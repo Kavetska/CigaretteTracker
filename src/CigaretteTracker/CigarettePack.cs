@@ -1,14 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CigaretteTracker
+﻿namespace CigaretteTracker
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class CigarettePack
     {
         public List<Cigarette> Cigarettes { get; set; }
+        public int NumberOfCigarettes { get => Cigarettes.Count; set { NumberOfCigarettes = value; } }
         public double Price { get { return PriceOfPack(); } set { Price = value; } }
 
         private double PriceOfPack()
