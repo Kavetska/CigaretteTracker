@@ -41,8 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cigarette.cs" />
-    <Compile Include="CigarettePack.cs" />
     <Compile Include="CigarettesPerDay.cs" />
+    <Compile Include="CigarettesTracker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

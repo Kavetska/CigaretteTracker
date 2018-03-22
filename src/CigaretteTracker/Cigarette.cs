@@ -11,6 +11,7 @@
         public double Nicotine { get; set; }
         public int Resin { get; set; }//смол
         public double Price { get; set; }
+        public string Brand { get; set; }
 
         public Cigarette()
         {
